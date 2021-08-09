@@ -14,11 +14,11 @@ public class Principal
         multiLista.agregarNodoPadre("Agronomía");
         //agregar alumno
         System.out.println("Carrera | Nombre     | Semestre     | Número de carnet");
-        multiLista.agregarNodoHijo("Ingeniería de sistemas", "   | Valeria       |     2        | 15387826");
-        multiLista.agregarNodoHijo("Ingeniería de sistemas", "   | Elian Villa   |     3        |  5877123");
+        multiLista.agregarNodoHijo("Ingeniería de sistemas", "   | Valeria Burgos       |     5        | 15387826");
+        multiLista.agregarNodoHijo("Ingeniería de sistemas", "   | Elian Villa          |     6        | 1007729255");
         
-        multiLista.agregarNodoHijo("Medicina", " | Sandra | 4 | 10400505");
-        multiLista.agregarNodoHijo("Medicina", " | Flappy | 6 | 8740124");
+        multiLista.agregarNodoHijo("Medicina", " | Sandra Villa | 4 | 25112292");
+        multiLista.agregarNodoHijo("Medicina", " | Flappy       | 8 | 15940220");
         
         multiLista.agregarNodoHijo("Agronomía", " | Gold | 6 | 5236412");
         
@@ -26,7 +26,7 @@ public class Principal
         multiLista.mostrarMultiLista();
         
         //Mostrar los alumnos de una carrera especifica.
-        multiLista.mostrarPacientes("Ingeniería de sistemas");
+        multiLista.mostrarPacientes("Medicina");
         
     }
     
